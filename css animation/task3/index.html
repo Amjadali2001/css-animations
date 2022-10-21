@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/40a6ef2a2e.js"></script>
+    <style>
+        .movingText {
+            color: rgb(9, 26, 8);
+            font-size: 50px;
+            padding: 10px;
+            position: relative;
+            animation-name: moving-text;
+            animation-duration: 8s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes moving-text {
+            0% {
+                top: 0px;
+                left: 0px;
+            }
+
+            50% {
+                top: 0px;
+                left: 102%;
+            }
+
+            100% {
+                top: 0px;
+                left: 0px;
+                ;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <h1 class="movingText">watch me move</h1>
+    </div>
+
+
+
+</body>
+
+</html>
